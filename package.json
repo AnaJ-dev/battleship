@@ -1,0 +1,28 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "",
+"scripts": {
+    "test": "jest --coverage",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnaJ-dev/battleship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AnaJ-dev/battleship/issues"
+  },
+  "homepage": "https://github.com/AnaJ-dev/battleship#readme",
+  "dependencies": {
+    "jest": "^30.4.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.5",
+    "parcel": "^2.16.4"
+  }
+}

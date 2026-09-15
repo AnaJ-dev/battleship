@@ -1,3 +1,50 @@
-* {
-  background-color: aqua;
+#status {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.realPlayerTabe td {
+  cursor: pointer;
+}
+
+.board-label {
+  font-size: 28px;
+  font-family: sans-serif;
+  margin-bottom: 6px;
+}
+
+td {
+  width: 40px;
+  height: 40px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+td.hit {
+  border: 3px solid black;
+  background-color: rgb(193, 253, 225);
+}
+
+td.miss {
+  background-color: rgb(248, 228, 205);
+}
+
+#restartBtn {
+  display: none;
+  margin-top: 20px;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+#restartBtn:hover {
+  background-color: #45a049;
 }
